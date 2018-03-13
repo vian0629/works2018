@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<!-- <head> -->
+<title>HAL屋</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/checkout.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/owl.carousel_v1.js"></script>
+<script type="text/javascript" src="js/function.js"></script>
+
+</head>
+<body>
+<div id="main">
+<div id="headerin">
+	<div id="headertop">
+		<div id="logo">
+			<img src="images/logo.png">
+			<ul>
+			<li><img src="images/icon001.png"></li>
+			<li><img src="images/icon002.png"></li>
+			</ul>
+		</div>
+	</div>
+	<nav>
+		<ul>
+			<li><a href="index.html">トップページ</a>|</li>
+			<li><a href="order.php">オーダーメイド</a>|</li>
+			<li><a href="list_product.html">メニュー</a>|</li>
+			<li><a href="#">旬の食材</a>|</li>
+			<li><a href="#">本社について</a></li>
+		</ul>
+	</nav>
+</div>
+<div id="content">
+	<ul class="breadcrumbs">
+      <li><a href="#">トップページ</a></li>
+      <li>買い物カート</li>
+    </ul>
+	<ul>
+		<li id="my_cart_title" class="my_cart_title_off"><p>1</p><span>カートを確認</span></li>
+		<li id="my_cart_title_style2"><p>2</p><span>買い物完了</span></li>
+	</ul>	
+	
+	<div style="width: 90%;height: 100px;border: solid 3px #ebea8b;text-align: center;padding-top:60px; font-size: 20px; font-weight: bolder;margin:50px; color: #362808; -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   border-radius: 15px;">
+	お買い上げありがとうございました。
+	</div>
+
+	
+	<div class="alignright" style="text-align: center;">
+    	
+    	<a href="index.html"><div class="btn" style="display: inline-block;margin: auto; ">トップページへ戻る</div></a>
+    </div>
+	</div>
+
+
+<div id="footer">
+	Copyright(C) Chen Pei Chu. All Rights Reserved.
+</div>
+</div>
+<script type="text/javascript">
+$(".opendetail").click(function () {
+
+    $(this).toggleClass('expand').nextUntil('tr.header').slideToggle(500);
+
+});
+</script>
+</body>
+</html>

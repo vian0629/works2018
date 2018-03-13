@@ -1,0 +1,211 @@
+/*TAB MENU*/
+.menu ul{
+  width: 730px;
+  padding: 0;
+  margin:auto;
+  margin-top:20px;
+  margin-bottom: 20px; 
+  line-height: 20px;
+  text-align: center;
+}
+.menu ul li{
+  display: inline-block;
+  width: 100px;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border-right: 1px solid #afafaf;
+  cursor: pointer;
+  color: #afafaf;
+  font-size: 16px;
+  
+  transition: 0.5s;
+}
+
+ul.tabs li.active {
+ color: #94b93c;
+ padding: 0 10px;
+ transition: 0.5s;
+ font-weight:bolder;
+}
+.tab_last { border:none!important;  }
+
+
+
+.tab_container {
+  clear: both;
+  float: left;
+  width: 100%;
+  background: #fff;
+  overflow: auto;
+  margin-bottom: 40px;
+}
+
+.tab_content {
+  /*border:2px #f1f1f1 solid;
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;*/
+  display: none;
+  width: 760px;
+  margin: auto;
+}
+#principal{
+}
+.food{
+  /*padding-top: 10px;
+  padding-bottom: 20px;*/
+  list-style: none;
+  overflow: hidden;
+  text-align: center;
+}
+.foodpic{
+  top: 0px;
+  width: 96px;
+  height: 110px;
+  padding:5px 10px;
+  display: inline-block;
+  cursor: move ;
+  vertical-align: middle;
+  position: relative;
+  text-align: center;
+}
+.foodpic:active{
+  opacity: 0.5;
+}
+.foodpic p{
+  margin: 0;
+  color: #a47d59;
+}
+.foodpic p span{
+  color: #aeaeae;
+  font-size: 11px;
+}
+.basketresult{
+  min-height: 100%;
+  position: relative;
+}
+.basket{
+  border:5px solid #94b93c;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  padding:0 20px 25px 20px;
+  margin: auto;
+  min-height:280px;
+  overflow: hidden;
+  width: 465px;
+  float: left;
+  z-index: -99;
+}
+.basket_active{
+  border:5px solid #ebea8b; 
+}
+.basket_hover{
+  border:5px solid #818d47; 
+}
+.basket p{
+  text-align: center;
+}
+.basket2{
+  width: 360px;
+  min-height: 320px;
+  float: right;
+  position: relative;
+  overflow: hidden;
+}
+#principal .info_food{
+  overflow: hidden;
+  font-size: 16px;
+}
+#principal .info_food span{
+  line-height: 30px;
+  color: #362808;
+}
+#principal .info_food .foodname{
+  float: left;
+  color: #986c42;
+  }
+#principal .info_food .fooddata{
+  float: right;
+}
+.basket2_l{
+  float: left;
+  width: 260px;
+  box-sizing: border-box;
+  padding: 10px 20px 55px 30px;
+  text-align: right;
+  z-index: 99;
+}
+
+.basket2_r{
+  float: left;
+  width: 100px;
+  box-sizing: border-box;
+  padding: 10px 0px 55px 20px;
+  text-align: right;
+  z-index: 99;
+}
+.basket2 h3{
+  color: #47290e;
+  border-bottom: 4px #94b93c solid;
+  line-height: 30px;
+}
+#cal_t{
+  position: absolute;
+  width:260px;
+  box-sizing: border-box;
+  left: 0px;
+  bottom: 10px;
+  font-size: 24px;
+  color: #ff9600;
+  text-align: right;
+  padding-top: 23px;
+  padding-right: 20px;
+  z-index: -99;
+  float: left;
+  background: url(../images/amount_bg.jpg) repeat-x left top;
+}
+#pri_t{
+  position: absolute;
+  width: 100px;
+  box-sizing: border-box;
+  right: 0;
+  bottom: 10px;
+  font-size: 24px;
+  color: #ff9600;
+  text-align: right;
+  padding-top: 23px;
+  z-index: -99;
+  float: right;
+  background: url(../images/amount_bg.jpg) no-repeat right top;
+}
+/**/
+.alignright{
+  text-align: right;
+  padding: 40px 0 60px 0;
+}
+.remove{
+  width: 25px;
+  height: 25px;
+  background: #818d47;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  right: 5px;
+  top: 0;
+  z-index: 999;
+  display: none;
+  line-height: 26px;
+  font-weight: bolder;
+  font-size: 22px;
+  color:#FFFFFF;
+  text-align: center;
+  cursor: pointer;
+}
+.divremove{
+  position: relative;
+  display: inline-block;
+}
